@@ -1,0 +1,12 @@
+friends = ['peter', 'nadav', 'chris', "matt"]
+print(friends)
+friends.append("peter")
+print(friends)
+friends.remove('peter')
+print(friends)
+friends.insert(0, 'timmy')
+friends.insert(3, 'rick')
+print(friends)
+womp = friends.pop()
+print(womp)
+print(friends)
